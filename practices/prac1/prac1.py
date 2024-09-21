@@ -8,9 +8,9 @@ num_epoches = 1
 batch_size = 1024
 learning_rate = 100
 
-train_df = pd.read_csv('practices/data_practice1/train.csv')
-val_df = pd.read_csv('practices/data_practice1/val.csv')
-test_df = pd.read_csv('practices/data_practice1/test.csv')
+train_df = pd.read_csv('practices/prac1/data/train.csv')
+val_df = pd.read_csv('practices/prac1/data/val.csv')
+test_df = pd.read_csv('practices/prac1/data/test.csv')
 
 X_train = train_df[['F', 'x']].values
 y_train = train_df['y'].values
